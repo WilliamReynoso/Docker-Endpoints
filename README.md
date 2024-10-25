@@ -3,7 +3,7 @@
 ## Nuevos endpoints
 ### /usuarios
 ### /usuarios/torre
-El api es la misma del docker nginx que ya cuenta con flask, donde se agregaron nuevos endpoints y con la ayuda de la libreria psycopg2 se realiza la conexion a la base de datos en el contenedor de postgres.
+El api es la misma del docker nginx que ya cuenta con flask, donde se agregaron nuevos endpoints y con la ayuda de la libreria psycopg2 se realiza la conexion a la base de datos del contenedor de postgres.
 ![imagen](https://github.com/user-attachments/assets/529f14fb-6148-42de-93dc-83a4f0265029)
 
 
@@ -12,6 +12,7 @@ Al acceder al endpoint /usuarios regresa la informacion de una base de datos con
 
 
 En este ejemplo el endpoint /usuarios/torre regresa los usuarios que cuentan con una torre o computadora de escritorio separandolos de los usuarios moviles.
+
 ![imagen](https://github.com/user-attachments/assets/f5a6aba6-7d78-402e-887e-f80b0ae5a245)
 
 
